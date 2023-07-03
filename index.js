@@ -20,7 +20,7 @@ const razorpay = new Razorpay({
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://mernfrontend-5em7.onrender.com',
   exposedHeaders: '*'
 }));
 
